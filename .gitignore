@@ -1,0 +1,11 @@
+/js/apikeys.js
+/video
+/node_modules
+/build_test
+/.vscode/settings.json
+.venv
+__pycache__
+/coverage
+/doc/~$edge-ghost-doc.pptx
+*.log
+/js/avatar/ica_avatar/models

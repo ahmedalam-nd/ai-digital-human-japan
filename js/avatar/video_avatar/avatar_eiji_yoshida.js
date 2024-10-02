@@ -1,0 +1,78 @@
+import { VideoAvatar } from "./video_avatar.js";
+
+export const avatarEijiYoshida = new VideoAvatar({
+  baseUrl: "./video/",
+  idleVideoList: {
+    [VideoAvatar.SENTIMENT_HAPPY]: [
+      "Eiji_000_idle000_happy.webm",
+      "Eiji_000_idle001_happy.webm",
+      "Eiji_000_idle002_happy.webm",
+      "Eiji_000_idle003_happy.webm",
+      "Eiji_000_idle004_happy.webm",
+    ],
+    [VideoAvatar.SENTIMENT_DEFAULT]: [
+      "Eiji_000_idle000_default.webm",
+      "Eiji_000_idle001_default.webm",
+      "Eiji_000_idle002_default.webm",
+      "Eiji_000_idle003_default.webm",
+      "Eiji_000_idle004_default.webm",
+    ],
+    [VideoAvatar.SENTIMENT_NEUTRAL]: [
+      "Eiji_000_idle000_neutral.webm",
+      "Eiji_000_idle001_neutral.webm",
+      "Eiji_000_idle002_neutral.webm",
+      "Eiji_000_idle003_neutral.webm",
+      "Eiji_000_idle004_neutral.webm",
+    ],
+    [VideoAvatar.SENTIMENT_SAD]: [
+      "Eiji_000_idle000_sad.webm",
+      "Eiji_000_idle001_sad.webm",
+      "Eiji_000_idle002_sad.webm",
+      "Eiji_000_idle003_sad.webm",
+      "Eiji_000_idle004_sad.webm",
+    ],
+  },
+  idleWaitingVideoList: {
+    [VideoAvatar.SENTIMENT_HAPPY]: ["Eiji_000_waitingidle000_happy.webm"],
+    [VideoAvatar.SENTIMENT_DEFAULT]: ["Eiji_000_waitingidle000_default.webm"],
+    [VideoAvatar.SENTIMENT_NEUTRAL]: ["Eiji_000_waitingidle000_neutral.webm"],
+    [VideoAvatar.SENTIMENT_SAD]: ["Eiji_000_waitingidle000_sad.webm"],
+  },
+  speechVideoList: {
+    [VideoAvatar.SENTIMENT_HAPPY]: [
+      "Eiji_000_talk000_happy.webm",
+      "Eiji_000_talk001_happy.webm",
+      "Eiji_000_talk002_happy.webm",
+      "Eiji_000_talk003_happy.webm",
+      "Eiji_000_talk004_happy.webm",
+    ],
+    [VideoAvatar.SENTIMENT_DEFAULT]: [
+      "Eiji_000_talk000_default.webm",
+      "Eiji_000_talk001_default.webm",
+      "Eiji_000_talk002_default.webm",
+      "Eiji_000_talk003_default.webm",
+      "Eiji_000_talk004_default.webm",
+    ],
+    [VideoAvatar.SENTIMENT_NEUTRAL]: [
+      "Eiji_000_talk000_neutral.webm",
+      "Eiji_000_talk001_neutral.webm",
+      "Eiji_000_talk002_neutral.webm",
+      "Eiji_000_talk003_neutral.webm",
+      "Eiji_000_talk004_neutral.webm",
+    ],
+    [VideoAvatar.SENTIMENT_SAD]: [
+      "Eiji_000_talk000_sad.webm",
+      "Eiji_000_talk001_sad.webm",
+      "Eiji_000_talk002_sad.webm",
+      "Eiji_000_talk003_sad.webm",
+      "Eiji_000_talk004_sad.webm",
+    ],
+  },
+  speechWaitingVideoList: {
+    [VideoAvatar.SENTIMENT_HAPPY]: ["Eiji_000_waitingtalk000_happy.webm"],
+    [VideoAvatar.SENTIMENT_DEFAULT]: ["Eiji_000_waitingtalk000_default.webm"],
+    [VideoAvatar.SENTIMENT_NEUTRAL]: ["Eiji_000_waitingtalk000_neutral.webm"],
+    [VideoAvatar.SENTIMENT_SAD]: ["Eiji_000_waitingtalk000_sad.webm"],
+  },
+  waitingTime: 300000,
+});
